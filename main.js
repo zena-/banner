@@ -1,10 +1,13 @@
- function removeElement(element) {
-  if (typeof(element) === "string") {
+ function removeElement(element) 
+ {
+  if (typeof(element) === "string") 
+  {
     element = document.querySelector(element);
   }
-  return function() {
+  return function() 
+  {
     element.parentNode.removeChild(element);
-  };
+  }
 }
 
 var zentime = gsap.timeline({smoothChildTiming:true});
@@ -26,3 +29,12 @@ zentime.from('.frame1', {opacity:0, duration:1, y:-500, ease: "power2.inOut",del
 	    .from('.frame4CTA', {opacity:0, duration:1, ease:"none"})
 		.duration(9)
 
+const gulp = require('gulp');
+const imagemin = require('gulp-imagemin');
+ 
+exports.default = () => 
+(
+    gulp.src('images/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('dist/images'))
+)
