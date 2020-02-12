@@ -6,13 +6,6 @@ section{
     align-items: center; 
     justify-content: center;
 }
-
-.white{
-	background-color: #ffffff;
-	width: 100%;
-	height: 100vh;
-}
-
 .frame{
 	width: 300px;
 	height: 250px;
@@ -20,14 +13,12 @@ section{
 	position: absolute;
 	overflow: hidden;
 }
-
 .frame1{
 	background: url(images/frame1.png) no-repeat center/contain;
 	width: 137px;
 	height: 160px;
 	filter: drop-shadow(12px 12px 7px #fe8648);
 }
-
 .same{
 	position: absolute;
     top: 0;
@@ -36,22 +27,13 @@ section{
     bottom: 0;
     margin: auto;
 }
-
-.frame2Lo{
-	background: url(images/frame2Logo.png) no-repeat center/contain;
-	width: 137px;
-	height: 160px;
-	z-index: 8;
-}
 .frame2C{
-	background: url(images/frame2Cup.png) no-repeat center/contain;
+	background: url(images/frame2.png) no-repeat center/contain;
 	width: 413px;
 	height: 564px;
 	top: -115px!important;
 	left: -50px!important;
 }
-
-
 .frame3C{
 	background: url(images/frame3Cup.png) no-repeat center/contain;
 	width: 113px;
@@ -64,7 +46,7 @@ section{
 	width: 32px;
 	height: 71px;
 	z-index: 10;
-	filter: drop-shadow(2px 4px 6px black);
+	filter: drop-shadow(12px 12px 7px #fe8648);
 }
 .frame3t1{
 	background: url(images/frame3T1.png) no-repeat center/contain;
@@ -79,16 +61,12 @@ section{
 	padding-bottom: 20px;
 	
 }
-.text{
-	position: relative!important;
-} 
-
-
+.text{position: relative!important;} 
 .frame4super{
 	background: url(images/frame4super.png) no-repeat center/contain;
 	width: 92px;
 	height: 19px;
-	top: -204px!important;
+	top: -203px!important;
     right: 80px;
 }
 .frame4fresh{
