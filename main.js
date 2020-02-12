@@ -15,7 +15,7 @@ zentime.from('.frame1', {opacity:0, duration:1.5, y:-500, ease: "power1.inOut",d
 	    .fromTo(".frame2C", {opacity:0,scale:2}, {opacity:1, duration:1, ease:"slow(0.3, 0.4, false)", scale:1, delay: .5})
 	    .call(removeElement(".frame1"))
 	    .call(removeElement(".frame2C"))
-	    .from(".frame3C", {opacity:0, ease:"back.in(2)"})
+	    .fromTo(".frame3C",{opacity:0,scale:2}, {opacity:1, ease:"power2.out", scale:1},'-=0.1')
 	    .fromTo(".frame3B", {opacity:0, scale:2}, {opacity:1, duration: 1, ease: "steps(7)", y: -10, scale:1})
 	    .from('.stag', {opacity:0, stagger:0.3, duration:1, x:500, ease: "bounce.in"})
 	    .call(removeElement(".frame3B"))

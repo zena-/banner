@@ -1,7 +1,5 @@
 section{
-	background-color: #ffffff;
 	height: 100vh;
-	overflow: hidden;
 	display: flex;
     align-items: center; 
     justify-content: center;
@@ -46,7 +44,7 @@ section{
 	width: 32px;
 	height: 71px;
 	z-index: 10;
-	filter: drop-shadow(12px 12px 7px #fe8648);
+	filter: drop-shadow(12px 12px 7px #fff);
 }
 .frame3t1{
 	background: url(images/frame3T1.png) no-repeat center/contain;
@@ -59,7 +57,6 @@ section{
 	width: 170px;
 	height: 24px;
 	padding-bottom: 20px;
-	
 }
 .text{position: relative!important;} 
 .frame4super{
